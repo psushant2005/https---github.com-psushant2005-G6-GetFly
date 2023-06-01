@@ -1,0 +1,108 @@
+@import url(https://fonts.google.com/specimen/Urbanist);
+body{
+    
+}
+.container{
+
+    font-family: 'FontFamilyName', Urbanist;
+    display: flex;
+    main-color: #00A1D9;
+
+}
+.logo img {
+    height: 400px;
+}
+.left-half, .right-half{
+    width: 50%;
+}
+.left-half{
+    border-right: 1px solid;
+}
+.right-half{
+    text-align: center;
+}
+.right-half p{
+    color:  #d4d4d4;
+}
+.heading{
+    text-align: center;
+    font-size: 48px;
+}
+.detail{
+    text-align: left;
+    margin: 10px 110px;
+}
+button{
+    background-color:#00A1D9 ;
+    color: white;
+    width: 30%;
+    border: none;
+    padding: 14px 20px;
+    margin: 8px 140px;
+}
+button:hover {
+    opacity: 0.8;
+}
+input[type=text], input[type=password] {
+    font-size: 16px;
+    width: 100%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid ;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+::placeholder{
+    color: #d4d4d4;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    main-color: #00A1D9;
+    border:none;
+  }
+  .left-half{
+    border-right: none;
+  }
+
+  .logo img {
+    height: 300px;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  
+  label {
+    font-size: 20px;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    font-size: 16px;
+    width: 300px;
+    margin: 0px 0px;
+    
+    display: inline-block;
+    border: 1px solid ;
+    box-sizing: border-box;
+    border-radius: 5px;
+  } 
+
+  
+  button{
+    width: 30%;
+    text-align: center;
+  }
+}
